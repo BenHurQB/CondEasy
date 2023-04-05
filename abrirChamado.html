@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Abrir Chamado</title>
+</head>
+<body>
+    <header>
+        <a href="./home.html"><img class="home_imagem_retorno" src="./image/Vector.svg" alt="imagem de retorno"></a>
+        <h2 class="home_titulo">ABRIR CHAMADO</h2>
+        
+        
+    </header>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+          <label for="local">Local:</label>
+          <input type="text" id="local" name="local" required>
+        </div>
+        <div>
+          <label for="pavimento">Pavimento:</label>
+          <select id="pavimento" name="pavimento" required>
+            <option value="">Selecione um bloco:</option>
+            <option value="Bloco A">Bloco A</option>
+            <option value="Bloco B">Bloco B</option>
+            <option value="Bloco C">Bloco C</option>
+          </select>
+        </div>
+        <div>
+          <label for="ocorrencia">Ocorrência:</label>
+          <select id="ocorrencia" name="ocorrencia" required>
+            <option value="">Selecione uma ocorrência:</option>
+            <option value="Lâmpada queimada">Lâmpada queimada</option>
+            <option value="Recolher o lixo">Recolher o lixo</option>
+            <option value="Conserto de porta">Conserto de porta</option>
+            <option value="Piso molhado">Piso molhado</option>
+            <option value="Piso avariado">Piso avariado</option>
+            <option value="Detritos de pet">Detritos de pet</option>
+            <option value="Outros">Outros</option>
+          </select>
+        </div>
+        <div>
+          <label for="anexo">Anexo:</label>
+          <input type="file" id="anexo" name="anexo">
+        </div>
+        <div>
+          <label for="descricao">Descrição:</label>
+          <textarea id="descricao" name="descricao" maxlength="200" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <footer class="abrirChamado_footer">
+        <a href="./home.html"><img src="./image/Home Page.png" alt="imagem home" class="imagem1"></a>
+        <img src="./image/Search.png" alt="imagem pesquisa" class="imagem2">
+        <img src="./image/Megaphone.png" alt="imagem Megaphone" class="imagem3">
+        <img src="./image/Name.png" alt="imagem identificacao" class="imagem4">
+    </footer>
+      
+</body>
+</html>
